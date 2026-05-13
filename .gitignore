@@ -1,0 +1,6 @@
+source_extracts/
+*.zip
+*.tmp
+~$*
+.DS_Store
+Thumbs.db
