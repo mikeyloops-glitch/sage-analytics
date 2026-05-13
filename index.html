@@ -8,13 +8,14 @@
       name="description"
       content="Sage Analytics is a South African botanical and cannabis chemistry laboratory launching with LC-UV potency testing, GC-FID aroma profiling, and HS-GC-FID residual solvent analysis."
     />
-    <link rel="preload" href="assets/nira-lab-bench.jpeg?v=launch-v18" as="image" />
-    <link rel="stylesheet" href="styles.css?v=launch-v18" />
+    <link rel="preload" href="assets/nira-lab-bench.jpeg?v=launch-v20" as="image" />
+    <link rel="stylesheet" href="styles.css?v=launch-v20" />
   </head>
   <body>
     <header class="site-header">
       <a class="brand" href="#top" aria-label="Sage Analytics home">
-        <img src="assets/logo-sage-primary.svg?v=launch-v18" alt="Sage Analytics" />
+        <img src="assets/logo-sage-primary.svg?v=launch-v20" alt="Sage Analytics" />
+        <span class="brand-fallback" hidden>Sage Analytics</span>
       </a>
 
       <nav class="main-nav" aria-label="Primary navigation">
@@ -67,7 +68,7 @@
         </div>
 
         <div class="hero__visual">
-          <img src="assets/nira-lab-bench.jpeg?v=launch-v18" alt="Analytical instruments on a clean laboratory bench" />
+          <img src="assets/nira-lab-bench.jpeg?v=launch-v20" alt="Analytical instruments on a clean laboratory bench" />
           <div class="hero-card">
             <span>Core chemistry</span>
             <strong>GC-FID + LC-UV</strong>
@@ -167,7 +168,7 @@
         </div>
         <figure class="lab-image">
           <img
-            src="assets/nira-lab-bench.jpeg?v=launch-v18"
+            src="assets/nira-lab-bench.jpeg?v=launch-v20"
             alt="GC-style analytical instruments on a clean laboratory bench"
           />
           <figcaption>Launch bench reference for GC-FID, HS-GC-FID, and LC-UV workflow planning.</figcaption>
@@ -237,7 +238,8 @@
 
     <footer class="site-footer">
       <div>
-        <img src="assets/logo-sage-primary.svg?v=launch-v18" alt="Sage Analytics" />
+        <img src="assets/logo-sage-primary.svg?v=launch-v20" alt="Sage Analytics" />
+        <span class="footer-brand-fallback" hidden>Sage Analytics</span>
         <p>Scientific Analysis for Green Excellence.</p>
       </div>
       <nav aria-label="Footer navigation">
@@ -265,6 +267,16 @@
           }
         });
       }
+
+      document.querySelectorAll(".brand img, .site-footer img").forEach((logo) => {
+        logo.addEventListener("error", () => {
+          logo.hidden = true;
+          const fallback = logo.nextElementSibling;
+          if (fallback) {
+            fallback.hidden = false;
+          }
+        });
+      });
     </script>
   </body>
 </html>
