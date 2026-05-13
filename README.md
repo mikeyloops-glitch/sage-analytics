@@ -1,4 +1,4 @@
-# Sage Analytics
+﻿# Sage Analytics
 
 Static website demo for Sage Analytics, a South African cannabis analytical testing laboratory concept.
 
@@ -23,10 +23,11 @@ This project includes a GitHub Pages workflow. Once pushed to `main`, GitHub Act
 
 Recommended GitHub repository name: `sage-analytics`
 
-Expected demo URL: `https://mikeyloops-glitch.github.io/sage-analytics/?v=boutique-v16`
+Expected demo URL: `https://mikeyloops-glitch.github.io/sage-analytics/?v=launch-v18`
 
-Current demo version: `boutique-v16`
+Current demo version: `launch-v18`
 
 ## Launch note
 
 This is a website draft for brand and service development. Licensing, accredited scope, final prices, and sample acceptance terms must be confirmed before public launch.
+

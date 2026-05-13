@@ -12,7 +12,7 @@ This note supports the current launch positioning for Sage Analytics. The new si
 
 ## Recommended Launch Position
 
-Sage Analytics should not enter as the cheapest option. The stronger positioning is boutique handling, fast communication, clean COAs, and a focused three-person lab model:
+Sage Analytics should not enter as the cheapest option. The stronger positioning is careful handling, fast communication, clean COAs, and a focused launch model:
 
 - Potency profile by LC-UV / HPLC-DAD: R1,450
 - Terpene profile by GC-FID: R1,350
