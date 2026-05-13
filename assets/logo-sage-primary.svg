@@ -1,0 +1,15 @@
+<svg width="340" height="132" viewBox="0 0 340 132" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Sage Analytics logo</title>
+  <desc id="desc">Sleek corporate Sage Analytics wordmark with a minimal chromatography and leaf mark.</desc>
+  <g transform="translate(18 18)">
+    <rect x="0" y="0" width="96" height="96" rx="28" fill="#F6F9F1" stroke="#DFE9D9" stroke-width="2"/>
+    <path d="M18 60H31L40 32L51 76L62 48L72 60H84" stroke="#4F7446" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M24 77C41 65 57 58 77 56" stroke="#C9EF66" stroke-width="5" stroke-linecap="round"/>
+    <path d="M36 39C47 24 63 18 79 19C75 36 81 48 93 56C70 56 52 62 35 76C34 62 31 48 36 39Z" fill="#E6F4CA"/>
+    <path d="M31 77C49 61 66 52 83 49" stroke="#89B85F" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(136 32)">
+    <text x="0" y="38" font-family="Inter, Arial, sans-serif" font-size="41" font-weight="680" letter-spacing="0" fill="#192118">Sage</text>
+    <text x="1" y="73" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="440" letter-spacing="5.5" fill="#73806F">ANALYTICS</text>
+  </g>
+</svg>

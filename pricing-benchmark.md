@@ -2,7 +2,7 @@
 
 Updated: 2026-05-13
 
-This note supports the current launch positioning for Sage Analytics. The new site is intentionally focused on the first market-entry scope only: cannabinoid potency, terpene profiling, and residual solvent screening.
+This note supports the current launch positioning for Sage Analytics. The site presents a full testing menu by product type, while the core launch positioning remains strongest around cannabinoid potency, terpene profiling, residual solvent screening, and flower release bundles.
 
 ## Public Benchmark Notes
 

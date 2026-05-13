@@ -7,7 +7,7 @@ SAGE stands for Scientific Analysis for Green Excellence.
 ## What is included
 
 - Customer-facing one-page website
-- Launch cannabis testing service menu and draft pricing
+- ACS-inspired product categories, testing panels, COA workflow, and draft pricing
 - Primary Sage Analytics logo
 - Soft white, grey, pale lime, and light sage visual system
 - Laboratory instrument imagery and attribution notes
@@ -23,9 +23,9 @@ This project includes a GitHub Pages workflow. Once pushed to `main`, GitHub Act
 
 Recommended GitHub repository name: `sage-analytics`
 
-Expected demo URL: `https://mikeyloops-glitch.github.io/sage-analytics/?v=launch-v21`
+Expected demo URL: `https://mikeyloops-glitch.github.io/sage-analytics/?v=acs-fresh-v22`
 
-Current demo version: `launch-v21`
+Current demo version: `acs-fresh-v22`
 
 ## Launch note
 
