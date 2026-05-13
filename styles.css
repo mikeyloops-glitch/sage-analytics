@@ -23,6 +23,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 104px;
 }
 
 body {
@@ -66,22 +67,82 @@ textarea {
 .brand {
   display: inline-flex;
   align-items: center;
-  width: 214px;
+  gap: 12px;
+  width: auto;
 }
 
-.brand img {
+.brand-mark {
+  display: inline-flex;
+  width: 62px;
+  height: 62px;
+  flex: 0 0 auto;
+}
+
+.brand-mark svg {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
-.brand-fallback,
+.brand-mark rect {
+  fill: #f6f9f1;
+  stroke: var(--line);
+  stroke-width: 2;
+}
+
+.brand-mark__trace {
+  fill: none;
+  stroke: var(--sage-700);
+  stroke-width: 6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.brand-mark__stem {
+  fill: none;
+  stroke: var(--sage-300);
+  stroke-width: 5;
+  stroke-linecap: round;
+}
+
+.brand-mark__leaf {
+  fill: var(--sage-100);
+}
+
+.brand-mark__vein {
+  fill: none;
+  stroke: var(--sage-500);
+  stroke-width: 4;
+  stroke-linecap: round;
+}
+
+.brand-type {
+  display: grid;
+  gap: 0;
+  line-height: 1;
+}
+
+.brand-type strong {
+  color: var(--ink);
+  font-size: 1.52rem;
+  font-weight: 780;
+  letter-spacing: 0;
+}
+
+.brand-type small {
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 620;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
 .footer-brand-fallback {
   color: var(--ink);
   font-size: 1.08rem;
   font-weight: 760;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  white-space: nowrap;
 }
 
 .main-nav {
@@ -420,8 +481,8 @@ h3 {
   width: 100%;
   height: 426px;
   object-fit: cover;
-  object-position: center;
-  filter: saturate(0.78) brightness(1.1);
+  object-position: center 52%;
+  filter: saturate(0.86) brightness(1.05);
 }
 
 .hero-card {
@@ -492,6 +553,7 @@ h3 {
 
 .section {
   padding: 78px 0;
+  scroll-margin-top: 96px;
 }
 
 .section-heading {
@@ -610,7 +672,7 @@ h3 {
 
 .method-list div {
   display: grid;
-  grid-template-columns: 22px 140px 1fr;
+  grid-template-columns: 22px 172px 1fr;
   gap: 12px;
   align-items: center;
   border-top: 1px solid var(--line);
@@ -628,6 +690,10 @@ h3 {
   margin: 0;
 }
 
+.method-list strong {
+  white-space: nowrap;
+}
+
 .lab-image {
   margin: 0;
   border: 1px solid var(--line);
@@ -639,6 +705,7 @@ h3 {
   width: 100%;
   aspect-ratio: 1.45;
   object-fit: cover;
+  object-position: center 48%;
   filter: saturate(0.78) brightness(1.07);
 }
 
@@ -851,7 +918,20 @@ h3 {
 
 @media (max-width: 640px) {
   .brand {
-    width: 204px;
+    gap: 10px;
+  }
+
+  .brand-mark {
+    width: 54px;
+    height: 54px;
+  }
+
+  .brand-type strong {
+    font-size: 1.32rem;
+  }
+
+  .brand-type small {
+    font-size: 0.72rem;
   }
 
   .hero,

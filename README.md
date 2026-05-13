@@ -23,9 +23,9 @@ This project includes a GitHub Pages workflow. Once pushed to `main`, GitHub Act
 
 Recommended GitHub repository name: `sage-analytics`
 
-Expected demo URL: `https://mikeyloops-glitch.github.io/sage-analytics/?v=launch-v20`
+Expected demo URL: `https://mikeyloops-glitch.github.io/sage-analytics/?v=launch-v21`
 
-Current demo version: `launch-v20`
+Current demo version: `launch-v21`
 
 ## Launch note
 
