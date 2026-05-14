@@ -28,9 +28,9 @@ This project includes a GitHub Pages workflow. Once pushed to `main`, GitHub Act
 
 Recommended GitHub repository name: `sage-analytics`
 
-Expected demo URL: `https://mikeyloops-glitch.github.io/sage-analytics/?v=acs-flip-v24`
+Expected demo URL: `https://mikeyloops-glitch.github.io/sage-analytics/?v=card-highlight-v25`
 
-Current demo version: `acs-flip-v24`
+Current demo version: `card-highlight-v25`
 
 ## Launch note
 
