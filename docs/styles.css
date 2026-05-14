@@ -604,6 +604,7 @@ h3 {
   cursor: pointer;
   perspective: 1200px;
   text-align: left;
+  transition: transform 220ms ease;
 }
 
 .flip-card__inner {
@@ -634,14 +635,21 @@ h3 {
 }
 
 .flip-card__back {
-  background: linear-gradient(180deg, rgba(247, 251, 239, 0.96), rgba(255, 255, 255, 0.9));
-  border-color: var(--line-strong);
+  background: rgba(255, 255, 255, 0.86);
+  border-color: var(--line);
   transform: rotateY(180deg);
 }
 
-.flip-card--featured .flip-card__front {
-  background: linear-gradient(180deg, rgba(239, 248, 223, 0.92), rgba(255, 255, 255, 0.9));
-  border-color: var(--line-strong);
+.flip-card:hover .flip-card__button {
+  transform: translateY(-4px);
+}
+
+.flip-card:hover .flip-card__face {
+  background:
+    linear-gradient(135deg, rgba(228, 244, 198, 0.68), rgba(255, 255, 255, 0.96) 42%),
+    rgba(255, 255, 255, 0.96);
+  border-color: #b8d79d;
+  box-shadow: 0 22px 58px rgba(34, 48, 27, 0.14);
 }
 
 .flip-card__button:focus-visible .flip-card__face {
@@ -651,10 +659,6 @@ h3 {
 
 .flip-card__button:focus {
   outline: none;
-}
-
-.flip-card__button:hover .flip-card__face {
-  border-color: var(--line-strong);
 }
 
 .route-tag,
