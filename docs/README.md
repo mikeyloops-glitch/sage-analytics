@@ -28,9 +28,9 @@ This project includes a GitHub Pages workflow. Once pushed to `main`, GitHub Act
 
 Recommended GitHub repository name: `sage-analytics`
 
-Expected demo URL: `https://mikeyloops-glitch.github.io/sage-analytics/?v=route-hover-v26`
+Expected demo URL: `https://mikeyloops-glitch.github.io/sage-analytics/?v=logo-spacing-v27`
 
-Current demo version: `route-hover-v26`
+Current demo version: `logo-spacing-v27`
 
 ## Launch note
 

@@ -68,7 +68,7 @@ textarea {
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 12px;
+  gap: 14px;
 }
 
 .brand--footer {
@@ -77,8 +77,8 @@ textarea {
 
 .brand-mark {
   display: inline-flex;
-  width: 62px;
-  height: 62px;
+  width: 60px;
+  height: 60px;
   flex: 0 0 auto;
 }
 
@@ -126,6 +126,7 @@ textarea {
 
 .brand-type {
   display: grid;
+  row-gap: 2px;
   line-height: 1;
 }
 
